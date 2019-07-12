@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
+# TODO
+
+## 1. Check the quality of my ip proxy
+
 class MyIp:
   def  __init__(self):
     self.ip=self.get()
